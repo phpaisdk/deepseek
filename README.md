@@ -1,5 +1,13 @@
 # aisdk/deepseek
 
+<a href="https://github.com/phpaisdk/deepseek/actions"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/phpaisdk/deepseek/tests.yml?branch=main&label=Tests"></a>
+<a href="https://packagist.org/packages/aisdk/deepseek"><img alt="Total Downloads" src="https://img.shields.io/packagist/dt/aisdk/deepseek"></a>
+<a href="https://packagist.org/packages/aisdk/deepseek"><img alt="Latest Version" src="https://img.shields.io/packagist/v/aisdk/deepseek"></a>
+<a href="https://packagist.org/packages/aisdk/deepseek"><img alt="License" src="https://img.shields.io/packagist/l/aisdk/deepseek"></a>
+<a href="https://whyphp.dev"><img src="https://img.shields.io/badge/Why_PHP-in_2026-7A86E8?style=flat-square&labelColor=18181b" alt="Why PHP in 2026"></a>
+
+------
+
 Official DeepSeek provider for the PHP AI SDK. It uses DeepSeek's OpenAI-compatible Chat Completions API.
 
 ## Installation
@@ -73,4 +81,3 @@ composer test:all
 - [DeepSeek API documentation](https://api-docs.deepseek.com/)
 - [Core Package](https://github.com/phpaisdk/core)
 - [OpenAI-Compatible Package](https://github.com/phpaisdk/openai-compatible)
-
