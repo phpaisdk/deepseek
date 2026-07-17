@@ -76,8 +76,13 @@ $result = Generate::text('Solve this step by step.')
 composer test:all
 ```
 
-## Links
+## Documentation
 
-- [DeepSeek API documentation](https://api-docs.deepseek.com/)
-- [Core Package](https://github.com/phpaisdk/core)
-- [OpenAI-Compatible Package](https://github.com/phpaisdk/openai-compatible)
+- [PHP AI SDK documentation](https://phpaisdk.com/docs)
+- [DeepSeek documentation](https://phpaisdk.com/docs/deepseek)
+
+## Community
+
+- [Contributing](https://github.com/phpaisdk/.github/blob/main/CONTRIBUTING.md)
+- [Support](https://github.com/phpaisdk/.github/blob/main/SUPPORT.md)
+- For private security reports, email [security@phpaisdk.com](mailto:security@phpaisdk.com).
