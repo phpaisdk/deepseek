@@ -2,7 +2,13 @@
     "name": "aisdk/deepseek",
     "description": "Official DeepSeek provider for the PHP AI SDK.",
     "license": "MIT",
-    "keywords": ["ai", "aisdk", "deepseek", "llm", "openai-compatible"],
+    "keywords": [
+        "ai",
+        "aisdk",
+        "deepseek",
+        "llm",
+        "openai-compatible"
+    ],
     "homepage": "https://github.com/phpaisdk/deepseek",
     "support": {
         "issues": "https://github.com/phpaisdk/deepseek/issues",
@@ -10,8 +16,8 @@
     },
     "require": {
         "php": "^8.3",
-        "aisdk/core": "^0.8.0",
-        "aisdk/openai-compatible": "^0.8.0"
+        "aisdk/core": "^0.10.0",
+        "aisdk/openai-compatible": "^0.10.0"
     },
     "require-dev": {
         "laravel/pint": "^1.18",
@@ -38,7 +44,11 @@
         "refactor:dry": "vendor/bin/rector process --dry-run",
         "refactor": "vendor/bin/rector process",
         "test": "vendor/bin/pest",
-        "test:all": ["@lint", "@analyze", "@test"]
+        "test:all": [
+            "@lint",
+            "@analyze",
+            "@test"
+        ]
     },
     "config": {
         "sort-packages": true,
